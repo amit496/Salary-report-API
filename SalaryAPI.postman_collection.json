@@ -16,7 +16,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:8081/api/salray/report/?month=2025-01&page=2",
+					"raw": "http://127.0.0.1:8083/api/salary-report/?month=2025-01&page=2",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -24,11 +24,10 @@
 						"0",
 						"1"
 					],
-					"port": "8081",
+					"port": "8083",
 					"path": [
 						"api",
-						"salray",
-						"report",
+						"salary-report",
 						""
 					],
 					"query": [
