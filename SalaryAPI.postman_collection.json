@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "25653e30-8263-42d7-9765-e7970b650084",
+		"name": "SalaryAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33630836",
+		"_collection_link": "https://gold-water-221171.postman.co/workspace/ecommerce_api~2409c141-09fc-4fca-a23c-66d022e786c9/collection/33630836-25653e30-8263-42d7-9765-e7970b650084?action=share&source=collection_link&creator=33630836"
+	},
+	"item": [
+		{
+			"name": "Report API",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8081/api/salray/report/?month=2025-01&page=2",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"salray",
+						"report",
+						""
+					],
+					"query": [
+						{
+							"key": "month",
+							"value": "2025-01"
+						},
+						{
+							"key": "page",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
